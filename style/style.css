@@ -9,11 +9,6 @@
     font-size: 14px;
 }
 
-main{
-    width: 1000px;
-    margin: 0 auto;
-}
-
 h1{
     padding-top: 64px;
 
@@ -46,4 +41,34 @@ li{
     padding-top: 12px;
     padding-left: 16px;
     line-height: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header_top{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header_bot ul li{
+    display: inline;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 42px 0 0;
+}
+
+.header_bot ul li a{
+    color: #3c4043;
+}
+
+.header_bot ul li a:hover{
+    color: blue;
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
 }
