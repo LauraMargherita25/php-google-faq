@@ -47,6 +47,12 @@ a{
     text-decoration: none;
 }
 
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
 .header_top{
     padding: 10px;
     display: flex;
@@ -83,5 +89,6 @@ a{
 
 main{
     width: 1000px;
+    padding-top: 6rem;
     margin: 0 auto;
 }
