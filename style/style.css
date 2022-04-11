@@ -53,19 +53,32 @@ a{
     align-items: center;
 }
 
+.header_bot{
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(151,151,151,0.5);
+}
+
+.header_bot ul{
+    margin: 0;
+}
+
 .header_bot ul li{
     display: inline;
     font-size: 15px;
     font-weight: 500;
     margin: 0 42px 0 0;
+    padding: 0;
 }
 
 .header_bot ul li a{
     color: #3c4043;
+    padding: 0 0 6px 0;
+    color: #5f6368;
 }
 
 .header_bot ul li a:hover{
-    color: blue;
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
 }
 
 main{
